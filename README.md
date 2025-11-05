@@ -1,9 +1,9 @@
 # Kristina's Tech Store - Inventory Management System
 
-## 📋 Project Overview
+##  Project Overview
 A complete Spring Boot web application for managing computer parts and products inventory. Built for Kristina's Tech Store to track inventory with min/max validation, purchase functionality, and comprehensive part management.
 
-## 🚀 Features
+##  Features
 - **Part Management**: Add, update, delete computer parts (Inhouse & Outsourced)
 - **Product Management**: Manage assembled computer products with Buy Now functionality  
 - **Inventory Validation**: Min/Max inventory tracking with real-time validation
@@ -11,14 +11,14 @@ A complete Spring Boot web application for managing computer parts and products 
 - **H2 Database**: Embedded database with web console
 - **Responsive UI**: Clean, professional interface
 
-## 🛠️ Technology Stack
+##  Technology Stack
 - **Backend**: Spring Boot 3.5.7, Java 21
 - **Database**: H2 Database (file-based)
 - **Frontend**: Thymeleaf, HTML, CSS
 - **Testing**: JUnit 5
 - **Build Tool**: Maven
 
-## 📁 Project Structure
+##  Project Structure
 src/
 ├── main/
 │ ├── java/com/example/cs/
@@ -34,7 +34,7 @@ src/
 └── test/
 
 
-## 🏃‍♂️ How to Run
+##  How to Run...
 
 ### Prerequisites
 - Java 21
@@ -59,91 +59,91 @@ Username: sa
 
 Password: password
 
-📊 Sample Data
+ Sample Data
 The application automatically loads sample data:
 
 5 Computer Parts: Mix of Inhouse and Outsourced
 
 5 Computer Products: Various computer systems
 
-🧪 Testing
+ Testing
 bash
 # Run all tests
 mvn test
 
 # Run specific test
 mvn test -Dtest=PartTest
-📝 Assignment Requirements Implementation
+ Assignment Requirements Implementation
 Part A: Git Repository
-✅ GitLab repository created with proper commit history
+- GitLab repository created with proper commit history
 
-✅ GitHub repository synchronized
+- GitHub repository synchronized
 
 Part B: README File
-✅ Comprehensive documentation with change tracking
+- Comprehensive documentation with change tracking
 
 Part C: Customize User Interface
-✅ Shop name: "Kristina's Tech Store"
+- Shop name: "Kristina's Tech Store"
 
-✅ Computer-specific parts and products
+- Computer-specific parts and products
 
-✅ Professional CSS styling
+- Professional CSS styling
 
 Part D: About Page
-✅ Company description and contact information
+- Company description and contact information
 
-✅ Navigation between pages
+- Navigation between pages
 
 Part E: Sample Inventory
-✅ 5 computer parts (Intel Core i7, Corsair RAM, Samsung SSD, etc.)
+- 5 computer parts (Intel Core i7, Corsair RAM, Samsung SSD, etc.)
 
-✅ 5 computer products (Gaming PC, Office Workstation, etc.)
+- 5 computer products (Gaming PC, Office Workstation, etc.)
 
-✅ Only loads when database is empty
+- Only loads when database is empty
 
 Part F: Buy Now Button
-✅ Added to product list next to update/delete
+- Added to product list next to update/delete
 
-✅ Decrements product inventory by one
+- Decrements product inventory by one
 
-✅ Success/error messages for purchases
+- Success/error messages for purchases
 
 Part G: Max/Min Inventory Tracking
-✅ Added minInv and maxInv fields to Part entity
+- Added minInv and maxInv fields to Part entity
 
-✅ Updated forms with min/max input fields
+- Updated forms with min/max input fields
 
-✅ Database file renamed to kristina_tech_inventory
+- Database file renamed to kristina_tech_inventory
 
-✅ Inventory validation between min and max
+- Inventory validation between min and max
 
 Part H: Validation
-✅ Error messages for inventory below minimum
+- Error messages for inventory below minimum
 
-✅ Error messages for inventory above maximum
+- Error messages for inventory above maximum
 
-✅ Validation during part add/update operations
+- Validation during part add/update operations
 
 Part I: Unit Tests
-✅ 2 unit tests in PartTest class
+- 2 unit tests in PartTest class
 
-✅ Tests for min/max inventory validation
+- Tests for min/max inventory validation
 
-✅ All tests passing
+- All tests passing
 
 Part J: Clean Code
-✅ Removed unused validator classes
+- Removed unused validator classes
 
-✅ Clean, maintainable code structure
+- Clean, maintainable code structure
 
 Part K: Professional Communication
-✅ Clear documentation
+- Clear documentation
 
-✅ Professional code comments
+- Professional code comments
 
-✅ Proper commit messages
+- Proper commit messages
 
-🔧 Code Changes Reference
+ Code Changes Reference
 Part C: Customize UI
 index.html (Line 25) - Updated shop name
 
@@ -179,11 +179,11 @@ part-form.html (Lines 70-80) - Error messages
 Part I: Unit Tests
 PartTest.java (Lines 30-55) - 2 tests for min/max validation
 
-👨‍💻 Developer
+ Developer
 Your Hardik Hariyani
 Java Spring Frameworks - D287
 
-📄 License
+ License
 This project is for educational purposes as part of WGU coursework.
 
 text
